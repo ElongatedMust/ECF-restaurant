@@ -1,0 +1,19 @@
+CREATE DATABASE projectecf ; 
+
+CREATE TABLE users ( 
+id int(11) NOT NULL  AUTO_INCREMENT,
+email varchar(254) NOT NULL,
+username varchar(20) NOT NULL,
+Password varchar(60) NOT NULL,
+is_admin boolean,
+PRIMARY KEY (id)
+);
+
+
+CREATE TABLE reservation ( 
+id int(11) NOT NULL AUTO_INCREMENT,
+date date NOT NULL,
+time time NOT NULL, 
+comments text,
+PRIMARY KEY (id)
+);
