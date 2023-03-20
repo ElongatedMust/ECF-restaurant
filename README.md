@@ -16,7 +16,7 @@ Les demarches a suivres pour l'éxecution du projet en local sont les suivants :
  - Mettre ces trois dossier dans un dossier ECF et mettez le dossier contenant les trois autres dossier dans le dossier de htdocs de Xampp. 
  - Accedez a phpmyadmin -->. http://localhost/phpmyadmin/
  - insérez les codes SQL dans le dossier create SQL dans le repository.
- - Ensuite accedez directement le site http://localhost/ECF/ecf/php/mainpage.php
+ - Ensuite accedez directement le site http://localhost/ecf/php/mainpage.php
 
 
  
